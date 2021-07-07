@@ -1,123 +1,123 @@
-LINK TO ASSIGNMENT:
+LINK TO ASSIGNMENT: https://codepen.io/cyberkade/pen/GRmZJdw?editors=1100
 
 
     1. What is Semantic HTML? 
-Semantic HTML are HTML tags that have a clear purpose as to what their function is. This helps web crawlers uderstand what kind of content is where on a webpage
+-Semantic HTML are HTML tags that have a clear purpose as to what their function is. This helps web crawlers uderstand what kind of content is where on a webpage
 
     2. What is HTML used for? 
-HTML is used to form the backbone of a website. It creates the structure and content for other languages to tie into.
+-HTML is used to form the backbone of a website. It creates the structure and content for other languages to tie into.
 
     3. What is an attribute and where do we put it? 
-An attribute is an additional value that changes an HTML elements behaviour based on what attribute you insert.
+-An attribute is an additional value that changes an HTML elements behaviour based on what attribute you insert.
 
     4. What is the h1 tag used for? How many times should I use it on a page?
-h1 tags are used for defining headings. Headings give the reader a sense of what they're going to read. An h1 should only be used once, but you can step down all the way to h6 if neccessary.
+-h1 tags are used for defining headings. Headings give the reader a sense of what they're going to read. An h1 should only be used once, but you can step down all the way to h6 if neccessary.
 
     5. Name two tags that have required attributes
-<img src=''/> ; <a href=''></a>
+-<img src=''/> ; <a href=''></a>
 
     6. What do we put in the head of our HTML document?
-The head of an HTML document contains the title of the page, meta, links to stylesheets & fonts. This provides information for how a document should be percieved and rendered by browsers.
+-The head of an HTML document contains the title of the page, meta, links to stylesheets & fonts. This provides information for how a document should be percieved and rendered by browsers.
 
     7. What is an id? 
-An id is the most specific way possible for you to define an element to style. It's like a class, but it's common practice to the same id ONCE.
+-An id is the most specific way possible for you to define an element to style. It's like a class, but it's common practice to the same id ONCE.
 
     8. What elements can I add an id to? 
-Any HTML element can have an id added to it. It's a global attribute.
+-Any HTML element can have an id added to it. It's a global attribute.
 
     9. How many times can I use the same id on a page? 
-Once
+-Once
 
     10. What is a class? 
-A class is an HTML attribute that allows you to alter any element with that assigned class, without altering other elements of the same type.
+-A class is an HTML attribute that allows you to alter any element with that assigned class, without altering other elements of the same type.
 
     11. What elements can I add a class to?
-Any HTML element can have a class added to it. It's a global attribute.
+-Any HTML element can have a class added to it. It's a global attribute.
 
     12. How many times can I use the same class on a page? 
-However many times your heart desires, although assigning a lot of classes to an element can cause performacne issues. It's best to keep things as neat as possible.
+-However many times your heart desires, although assigning a lot of classes to an element can cause performacne issues. It's best to keep things as neat as possible.
 
     13. How do I get my link to open in a new tab?
-target=_blank
+-target=_blank
 
     14. What is the alt attribute in the image tag used for? 
-The alt attribute is used as a placeholder in case the image fails to be found. It also is read aloud in place of the image when somebody is using a screen reader.
+-The alt attribute is used as a placeholder in case the image fails to be found. It also is read aloud in place of the image when somebody is using a screen reader.
 
     15. How do I reference an id?
-#idName{}
+-#idName{}
 
     16. What is the difference between a section and a div
-A section is semantic and a div is non-semantic, they both have the same funciton. For example: You could use a section tag to divide a section on your site, while you could use a div to style the h1 p and a tag in unsion inside that section.
+-A section is semantic and a div is non-semantic, they both have the same funciton. For example: You could use a section tag to divide a section on your site, while you could use a div to style the h1 p and a tag in unsion inside that section.
 
     17. What is CSS used for?
-CSS is used to style a website. Cascading Style Sheets 
+-CSS is used to style a website. Cascading Style Sheets 
 
     18. How to we select an element? Example - every h2 on the page
-<tag>{property:value;}
-h2{}
+-<tag>{property:value;}
+-h2{}
 
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
-Example: If you have three sections and want all of them styled the same way you'd give them all a class of the same name. Then you realize you want the second section to be styled slightly different to make it pop more,
+-Example: If you have three sections and want all of them styled the same way you'd give them all a class of the same name. Then you realize you want the second section to be styled slightly different to make it pop more,
 since it's where the real juicy page content is. So you create an ID for that section and overwrite a couple of the properties assigned from the class, while keeping the rest of the properties from the class in action.
 
 
     20. How do we select classes in CSS?
-with a period before the class name.
-.className{}
+-with a period before the class name.
+-.className{}
 
     21. How do we select a p element with a single class of “human””?
-p.human{}
+-p.human{}
 
     22. What is a parent child selector? When would this be useful?
-The parent child selector selects elemnts with a specific parent. Elements that aren't a direct child of the specified parent will not be selected, which makes styling a specific element possible without changing every element on the page.
+-The parent child selector selects elemnts with a specific parent. Elements that aren't a direct child of the specified parent will not be selected, which makes styling a specific element possible without changing every element on the page.
  
     23. How do you select all links within a div with the class of sidebar?
-div.sidebar a{}
+-div.sidebar a{}
 
     24. What is a pseudo selector?
-A psuedo selector defines a special state of an element. They make it possible to change the styling of an element in alternative ways
+-A psuedo selector defines a special state of an element. They make it possible to change the styling of an element in alternative ways
  Example: Hover will change the style when you hover your mouse over that element.
 
     25. What do we use the change the spacing between lines?
-line-height:1.5em;
+-line-height:1.5em;
 
     26. What do we use to change the spacing between letters?
-letter-spacing:1.5em;
+-letter-spacing:1.5em;
 
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
-text-transform:uppercase; text-transform:lowercase; text-transform:capitalize;
+-text-transform:uppercase; text-transform:lowercase; text-transform:capitalize;
 
 
     28. How do I add a 1px border around my div that is dotted and black?
-div{
+-div{
 border: 1px dotted black;
 }
 
     29. How do I select everything on the page? 
-*{}
-(body{} selects everything in the body)
+-*{}
+-(body{} selects everything in the body)
 
     30. How do I write a comment in CSS?
-/*comment goes here*/
+-/*comment goes here*/
 
     31. How do I find out what file I am in, when I am using the command line? 
-pwd 
+-pwd 
 
     32. Using the command line - how do I see a list of files/folders in my current folder?
-ls 
+-ls 
 
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
-rm <file> There is nothing to warn you about deleting the file. Once it is gone, it is GONE forever.
+-rm <file> There is nothing to warn you about deleting the file. Once it is gone, it is GONE forever.
 
     34. Why should I use version control? 
-It makes collaborating with peers substantially easier, plus version control makes it easy to navigate to old versions of your project, if needed.
+-It makes collaborating with peers substantially easier, plus version control makes it easy to navigate to old versions of your project, if needed.
 
     35. How often should I commit to github?
-When you've made a change that you're satisfied with. Any substantial change should be commited.
+-When you've made a change that you're satisfied with. Any substantial change should be commited.
 
     36. What is the command we would use to push our repo up to github? 
-git push -u origin kade-griffith
+-git push -u origin kade-griffith
 
     37. Walk me through Lambda's git flow. 
-Fork repo from GitHub, then clone it to your local repo. When in GIT create a branch with your first and last name so you're able work on your own code without altering the master branch.
+-Fork repo from GitHub, then clone it to your local repo. When in GIT create a branch with your first and last name so you're able work on your own code without altering the master branch.
 Add a file named 'firstName-lastName' to store the link to the completed project. Add, commit, push changes as needed then pull, with my fork as the base.
